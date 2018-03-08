@@ -5,7 +5,7 @@ int main()
 {
     int z,a,b,c;
     cin>>a>>b>>c;
-    z=(a^b)%c;
+    z=(pow(a,b))%c;
     cout<<z;
     return 0;
 }
